@@ -1,0 +1,131 @@
+body{
+    text-align: center;
+   background: #e8eae6;
+   font-family:'Roboto Condensed', sans-serif;;
+}
+
+#earth {
+    width:400px ;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#profile-pic{
+    border-radius: 50%;
+    width: 150px;
+    margin:100px auto 50px;
+}
+#jupiter{
+    position: absolute;
+    right: 20px;
+    top: 70px;
+}
+#moon{
+    position: absolute;
+    left:400px ;
+    bottom: 360px;
+}
+
+#first {
+background-color:#1a508b;
+position: relative;
+padding:170px 0px 70px 0px;
+color: #55b3b1;
+}
+h1{
+    font-size: 4em;
+    font-family:'dancing script';
+    padding: 1rem;
+    
+}
+span{
+    text-decoration: underline;
+}
+hr{
+    width: 5%;
+    border: 8px dotted grey;
+    border-top: none;
+    margin: auto;
+    size: 0ch;
+     color: #e8eae6;
+}
+h2{
+font-size: 3rem;
+ font-family: 'lora',serif;
+ padding: 1rem;
+}
+p{
+    line-height: 20px;
+    font-size: 18px;
+}
+h3{
+    font-family: 'lora',serif;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.profile{
+    margin-bottom: 30px;
+}
+#cs,#graphic{
+    width: 150px;
+}
+.skills {
+  width: 35%;
+  margin: 0 auto 50px;
+}
+#cs{
+    float: left;
+    padding:0px 30px 20px 0px ;
+    clear: both;
+}
+#graphic{
+    float: right;
+    clear: both;
+}
+#design{
+    width: 60%;
+    padding: 50px 0px 0px 10px;
+}
+#contact{
+    width: 30%;
+    margin:10px auto 35px;
+}
+.myButton {
+	background-color:#1e83a8;
+	border-radius:15px;
+	border:1px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'lora';
+	font-size:23px;
+	padding:15px 34px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin-bottom: 15px;
+}
+.myButton:hover {
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container {
+ background-color:#1a508b ;
+ margin-bottom: 0px;
+}
+.footer-link{
+    text-decoration: none;
+    color:#55b3b1 ;
+    padding: 15px;
+    margin: 40px 10px;
+    font-size: 1.2rem;
+}
+.footer-link:hover{
+    color: #179290;
+}
+#copy{
+    color: rgb(177, 177, 177);
+}
